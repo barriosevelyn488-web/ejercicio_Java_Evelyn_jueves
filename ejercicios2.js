@@ -12,7 +12,7 @@ function funcionPar(){
     return par1;
 }
 
-funcionPar();
+//funcionPar();//
 
 // ejercicio 2
 function funcionPar2(){
@@ -29,7 +29,7 @@ function funcionPar2(){
 
 }
 
-funcionPar2();
+//funcionPar2();//
 
 
 //ejercicio 3
@@ -47,11 +47,47 @@ function Mayoredad(){
 
 }
 
-Mayoredad();
+//Mayoredad();//
 
 //ejercicio 4
-for 
+function NumAcend(){
+    console.log("los numeros de del 1 al 10 son:");
+    for (var i = 1; i <= 10; i++){
+        console.log(i);
+    }
+}
 
+//NumAcend();//
+
+//ejercicio 5
+function Numdesc(){
+    console.log("los numeros del 10 al 1 son;");
+    let i = 10;
+    while ( i >= 1){
+        console.log(i);
+        i--;
+    }
+}
+
+//Numdesc();//
+
+//ejercicio 6 
+function TablaMultiplicar(){
+    var nume = Number(prompt("ingrese un numero para mostrar su tabla"));
+    console.log("la tabla de multiplicar del ", nume, "es:");
+    for (var i = 1; i <= 10; i++){
+        console.log(nume, "x", i, "=", nume * i);
+    }
+}
+
+//TablaMultiplicar();//
+
+//ejercicio 7
+let sum = 0;
+for (var i = 1; i <= 100; i++);{
+    sum += i;
+}
+console.log("la suma de los numeros del 1 al 100 es:", + sum);
 
 
 
